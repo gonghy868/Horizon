@@ -1,8 +1,8 @@
 {
   "ai": {
-    "provider": "deepseek",
+    "provider": "openai",
     "model": "deepseek-chat",
-    "api_key_env": "DEEPSEEK_API_KEY",
+    "api_key_env": "OPENAI_API_KEY",
     "base_url": "https://api.deepseek.com/v1",
     "temperature": 0.3,
     "languages": ["zh", "en"]
