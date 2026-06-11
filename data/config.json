@@ -1,0 +1,25 @@
+{
+  "ai": {
+    "provider": "openai",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "${OPENAI_API_KEY}",
+    "model": "deepseek-chat"
+  },
+  "sources": {
+    "hackernews": { "enabled": true, "top_n": 30 },
+    "rss": [
+      { "url": "https://openai.com/blog/rss.xml", "category": "ai" },
+      { "url": "https://news.ycombinator.com/rss", "category": "tech" },
+      { "url": "https://reddit.com/r/MachineLearning/.rss", "category": "ai" }
+    ],
+    "reddit": {
+      "enabled": true,
+      "subreddits": ["artificial", "MachineLearning", "LocalLLaMA"],
+      "top_n": 10
+    }
+  },
+  "output": {
+    "language": "zh",
+    "max_items": 15
+  }
+}
