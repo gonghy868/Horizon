@@ -1,26 +1,32 @@
 {
   "ai": {
-    "provider": "openai",
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "api_key_env": "DEEPSEEK_API_KEY",
     "base_url": "https://api.deepseek.com/v1",
-    "api_key": "${OPENAI_API_KEY}",
-    "model": "deepseek-chat"
+    "temperature": 0.3,
+    "languages": ["zh", "en"]
   },
   "sources": {
-    "hackernews": { "enabled": true, "top_n": 30 },
+    "hackernews": { "enabled": true, "fetch_top_stories": 30, "min_score": 50 },
     "rss": [
-      { "url": "https://openai.com/blog/rss.xml", "category": "ai" },
-      { "url": "https://news.ycombinator.com/rss", "category": "tech" },
-      { "url": "https://reddit.com/r/MachineLearning/.rss", "category": "ai" }
+      { "name": "OpenAI Blog", "url": "https://openai.com/blog/rss.xml", "enabled": true, "category": "ai" },
+      { "name": "HN RSS", "url": "https://news.ycombinator.com/rss", "enabled": true, "category": "tech" },
+      { "name": "ML Reddit", "url": "https://reddit.com/r/MachineLearning/.rss", "enabled": true, "category": "ai" }
     ],
     "reddit": {
       "enabled": true,
-      "subreddits": ["artificial", "MachineLearning", "LocalLLaMA"],
-      "top_n": 10
+      "subreddits": [
+        { "subreddit": "artificial", "enabled": true, "sort": "hot", "fetch_limit": 10, "min_score": 5 },
+        { "subreddit": "MachineLearning", "enabled": true, "sort": "hot", "fetch_limit": 10, "min_score": 5 },
+        { "subreddit": "LocalLLaMA", "enabled": true, "sort": "hot", "fetch_limit": 10, "min_score": 5 }
+      ],
+      "fetch_comments": 3
     }
   },
-  "output": {
-    "language": "zh",
-    "max_items": 15,
-    "bilingual": true
+  "filtering": {
+    "ai_score_threshold": 6.0,
+    "time_window_hours": 48,
+    "max_items": 20
   }
 }
