@@ -20,6 +20,7 @@
   },
   "output": {
     "language": "zh",
-    "max_items": 15
+    "max_items": 15,
+    "bilingual": true
   }
 }
