@@ -5,461 +5,469 @@ date: 2026-06-16
 lang: en
 ---
 
-> From 80 items, 20 important content pieces were selected
+> From 77 items, 20 important content pieces were selected
 
 ---
 
-1. [Backdoor in LinkedIn Job Offer via npm Install](#item-1) ⭐️ 9.0/10
-2. [US order to block foreign nationals from AI sets nationality-based access precedent](#item-2) ⭐️ 9.0/10
-3. [Microsoft Turns to AWS for GitHub AI Capacity Crunch](#item-3) ⭐️ 8.0/10
-4. [Banned Book Library Hidden in a Wi-Fi Smart Light Bulb](#item-4) ⭐️ 8.0/10
-5. [Iroh 1.0: Peer-to-Peer Networking Library Released](#item-5) ⭐️ 8.0/10
-6. [Fox to Acquire Roku in $22 Billion Deal](#item-6) ⭐️ 8.0/10
-7. [Salesforce Acquires Fin for $3.6B to Boost AI Agents](#item-7) ⭐️ 8.0/10
-8. [TimescaleDB Hypercore Compression: Up to 98% Ratio](#item-8) ⭐️ 8.0/10
-9. [Laser Phase Plate Boosts Cryo-EM Contrast](#item-9) ⭐️ 8.0/10
-10. [AI speeds work but weakens reasoning, user warns](#item-10) ⭐️ 8.0/10
-11. [7 Security Layers for AI Agents in Production](#item-11) ⭐️ 8.0/10
-12. [A Love Letter to Computers Amid Industry Discontent](#item-12) ⭐️ 7.0/10
-13. [Homelab AI Dev Platform with Forgejo and Argo Workflows](#item-13) ⭐️ 7.0/10
-14. [Exploring a Fully Automated Economy Without Human Labor](#item-14) ⭐️ 7.0/10
-15. [Hetzner Cloud Server Prices Surge Up to 3x](#item-15) ⭐️ 7.0/10
-16. [US Battery Manufacturing Output Hits Record High](#item-16) ⭐️ 7.0/10
-17. [Deep Dive into Commander Keen's Smooth Scrolling](#item-17) ⭐️ 7.0/10
-18. [Copper transport drug restores memory in Alzheimer's mice](#item-18) ⭐️ 7.0/10
-19. [Job Interview Lessons on Kubernetes Trade-offs](#item-19) ⭐️ 7.0/10
-20. [OpenAI Launches Partner Network with $150M Investment](#item-20) ⭐️ 7.0/10
+1. [SpaceX to Acquire Cursor for $60B](#item-1) ⭐️ 9.0/10
+2. [Interactive Article Explores Mechanical Watch Movements](#item-2) ⭐️ 9.0/10
+3. [Mistral Announces New Open-Weight Model Family](#item-3) ⭐️ 9.0/10
+4. [Open-weights Claude Fable-5 distillation released](#item-4) ⭐️ 9.0/10
+5. [Local LLMs Are Now Practical and Competitive](#item-5) ⭐️ 8.0/10
+6. [Reflex.dev Boosts Python ast.walk by 220x](#item-6) ⭐️ 8.0/10
+7. [SubQ 1.1 Small: Learned Sparse Attention Cuts Compute 64.5x](#item-7) ⭐️ 8.0/10
+8. [Meta's Engineering Culture Under Fire](#item-8) ⭐️ 8.0/10
+9. [x86 Emulator Team Fixed Bad Code During Emulation](#item-9) ⭐️ 8.0/10
+10. [Qwen Launches Foundation Model Suite for Robotics](#item-10) ⭐️ 8.0/10
+11. [LLM 'fix this code' prompt bypasses safety filters](#item-11) ⭐️ 8.0/10
+12. [OpenAI Predicts Model Behavior Before Release](#item-12) ⭐️ 8.0/10
+13. [Octopus Architecture: A New Pattern for AI Agent Orchestration](#item-13) ⭐️ 8.0/10
+14. [GLM-5.2: First Open-weights Model to Top Terminal-Bench](#item-14) ⭐️ 8.0/10
+15. [VibeThinker-3B achieves frontier math and coding performance](#item-15) ⭐️ 8.0/10
+16. [Calvin and Hobbes and the Price of Integrity](#item-16) ⭐️ 7.0/10
+17. [Stop Using JWTs for Browser Sessions](#item-17) ⭐️ 7.0/10
+18. [Apple's Vehicle Motion Cues effectively reduce car sickness](#item-18) ⭐️ 7.0/10
+19. [Correlated Randomness in Slay the Spire 2](#item-19) ⭐️ 7.0/10
+20. [John Carmack Praises Fabrice Bellard's Programming Genius](#item-20) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Backdoor in LinkedIn Job Offer via npm Install](https://roman.pt/posts/linkedin-backdoor/) ⭐️ 9.0/10
+## [SpaceX to Acquire Cursor for $60B](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/) ⭐️ 9.0/10
 
-A job applicant discovered a backdoor in a LinkedIn recruiter's GitHub repository that executes automatically upon running npm install, revealing a sophisticated supply chain attack targeting developers through fake job offers. This attack exploits developers' trust in recruitment processes and the npm ecosystem, potentially compromising sensitive data from many targets. It highlights a growing trend of social engineering combined with supply chain attacks that platforms like LinkedIn and GitHub have been slow to address. The backdoor is hidden in commented-out test code and executes via npm's prepare script, which runs automatically after npm install. The payload communicates with a remote server to receive commands, allowing arbitrary code execution on the victim's machine.
+SpaceX has agreed to acquire AI coding startup Cursor in a $60 billion stock deal, just days after its historic IPO. This acquisition signals a major convergence of space technology and AI software development, potentially giving SpaceX a powerful internal tool to accelerate its engineering and mission-critical software. The deal is structured as a stock swap, and SpaceX had previously secured an option to acquire Cursor for $60 billion or pay $10 billion for partnership work.
 
-hackernews · HN RSS · Jun 15, 20:00 · [Discussion](https://news.ycombinator.com/item?id=48546294)
+hackernews · HN RSS · Jun 16, 10:44 · [Discussion](https://news.ycombinator.com/item?id=48553224)
 
-**Background**: Supply chain attacks target the software development lifecycle by compromising dependencies or tools developers trust. npm, the default package manager for Node.js, automatically runs lifecycle scripts like prepare during installation, which attackers can abuse to execute malicious code without user interaction. Social engineering via fake job offers is a common vector to trick developers into running such code.
+**Background**: Cursor is an AI-powered code editor that integrates with large language models to assist developers with code completion, debugging, and refactoring. SpaceX, led by Elon Musk, has been expanding beyond rocket launches into AI and software, and this acquisition could help integrate AI deeply into its engineering workflows.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.kaspersky.com/blog/rat-in-coding-task-on-github/52525/">Backdoor in coding test on GitHub | Kaspersky official blog</a></li>
-<li><a href="https://dev.to/deepseax/that-github-repo-could-be-a-backdoor-how-attackers-target-developers-through-fake-projects-3chh">That GitHub Repo Could Be a Backdoor — How Attackers Target Developers Through Fake Projects - DEV Community</a></li>
-<li><a href="https://dev.to/pickuma/npm-supply-chain-attacks-why-they-keep-happening-and-how-to-defend-3dnf">npm Supply Chain Attacks: Why They Keep Happening and How to ...</a></li>
+<li><a href="https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/">SpaceX to acquire Cursor for $60B in stock, days after blockbuster ...</a></li>
+<li><a href="https://aimagazine.com/news/what-is-behind-spacex-60bn-cursor-acquisition">What's Behind SpaceX's US$60bn Cursor Acquisition?</a></li>
+<li><a href="https://cursor.com/">Cursor: AI coding agent</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters note that this type of attack has been happening frequently over the past two years, with some reporting similar incidents to LinkedIn and GitHub but seeing no action. There is frustration over the lack of a centralized reporting mechanism for cybercrime and the platforms' slow response.
+**Discussion**: Community reactions are mixed: some users criticize Cursor's UI and prefer alternatives like Codex, while others praise its autocomplete and agent modes. A commenter questions the strategic fit, noting the enormous cost compared to building hospitals.
 
-**Tags**: `#security`, `#supply chain attack`, `#social engineering`, `#npm`, `#LinkedIn`
+**Tags**: `#acquisition`, `#AI coding`, `#SpaceX`, `#Cursor`, `#tech industry`
 
 ---
 
 <a id="item-2"></a>
-## [US order to block foreign nationals from AI sets nationality-based access precedent](https://www.reddit.com/r/artificial/comments/1u6lqp6/nobodys_talking_about_the_real_precedent_in_the/) ⭐️ 9.0/10
+## [Interactive Article Explores Mechanical Watch Movements](https://ciechanow.ski/mechanical-watch/) ⭐️ 9.0/10
 
-On June 12, the US Commerce Department ordered Anthropic to block foreign nationals—including non-citizens inside the US—from accessing its Fable 5 and Mythos 5 models, leading Anthropic to disable both models globally because it cannot enforce nationality-based restrictions in real time. This marks the first time export controls have been applied directly to an AI model rather than the hardware that runs it, setting a precedent for nationality-based access rules that cannot be enforced by geography alone and may force companies to build identity verification infrastructure. The order reportedly stemmed from a phone call from Amazon CEO Andy Jassy to Treasury Secretary Scott Bessent, claiming Amazon researchers used Fable 5 to pull information useful for cyberattacks; Anthropic received only 90 minutes' notice and no prior warning.
+An interactive article by Bartosz Ciechanowski provides a detailed, step-by-step visual explanation of how a mechanical watch movement works, using 3D animations and clear language. This article makes complex horological engineering accessible to a broad audience, serving as an exceptional educational resource that combines technical accuracy with engaging presentation. The article covers all major components of a mechanical movement, including the mainspring, gear train, balance wheel, and escapement, with interactive animations that allow readers to explore each part in detail.
 
-reddit · r/artificial · /u/TheOnlyVibemaster · Jun 15, 16:36
+hackernews · HN RSS · Jun 16, 11:26 · [Discussion](https://news.ycombinator.com/item?id=48553550)
 
-**Background**: Export controls on AI chips have existed for years, but this is the first time a model itself has been targeted. A nationality-based rule that covers foreign nationals inside the US cannot be enforced by IP geoblocking, so strict enforcement would require identity verification—potentially leading to 'show ID to use AI' requirements. Additionally, a federal judge has already ruled that AI chat logs carry no attorney-client privilege, meaning user inputs may be subject to compelled production.
+**Background**: A mechanical watch is a clockwork device that measures time using a mainspring, gear train, balance wheel, and escapement. Horology is the study of mechanical timekeeping devices. Understanding these intricate mechanisms requires knowledge of physics and engineering, which this article simplifies through visual aids.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openrouter.ai/anthropic/claude-fable-5">Claude Fable 5 - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://www.gibsondunn.com/wp-content/uploads/2025/01/bis-lays-groundwork-for-global-and-metered-access-to-frontier-ai-models-and-computing-power-to-train-them.pdf">PDF BIS Lays the Groundwork for Global and Metered Access to Frontier AI ...</a></li>
-<li><a href="https://x.com/Pirat_Nation/status/2065717650492125454">Anthropic has indefinitely suspended access to its most advanced AI ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mechanical_watch">Mechanical watch - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Horology">Horology</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Reddit commenters largely agree that the nationality-based access rule is a dangerous precedent, with many noting it could lead to mandatory ID verification for AI use. Some debate whether the jailbreak claim was genuine or a pretext, and others highlight the irony that Amazon, Anthropic's biggest investor, triggered the shutdown.
+**Discussion**: The community response is overwhelmingly positive, with users praising the article's educational value and clarity. One commenter was inspired to build a real-life exploded view of a watch movement, and a teacher highlighted the rarity of explaining complex topics simply. The discussion reflects deep appreciation for the free, high-quality knowledge shared.
 
-**Tags**: `#AI regulation`, `#export controls`, `#Anthropic`, `#nationality-based access`, `#identity infrastructure`
+**Tags**: `#mechanical watches`, `#interactive article`, `#engineering`, `#education`, `#horology`
 
 ---
 
 <a id="item-3"></a>
-## [Microsoft Turns to AWS for GitHub AI Capacity Crunch](https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch) ⭐️ 8.0/10
+## [Mistral Announces New Open-Weight Model Family](https://www.reddit.com/r/LocalLLaMA/comments/1u7klvv/mistral_new_family_of_openweight_models_july/) ⭐️ 9.0/10
 
-Microsoft is adding Amazon Web Services (AWS) capacity to GitHub after AI-driven growth caused severe infrastructure strain and reliability issues, marking a rare move where Microsoft relies on a major cloud rival. This shift highlights the immense infrastructure demands of AI coding tools like GitHub Copilot, and shows that even Microsoft's own Azure cloud cannot keep up, forcing a strategic partnership with AWS. GitHub commits surged to 1.4 billion per month, and the company had to shift from a planned 10x expansion to a 30x rearchitecture in just four months. The move is notable because Microsoft and AWS are direct competitors in the cloud market.
+Mistral AI has announced a new family of open-weight models, as revealed in a tweet by co-founder Arthur Mensch. The announcement was shared on Reddit's r/LocalLLaMA community, generating significant discussion. This release strengthens Mistral's position as a key player in open-weight AI, offering developers and researchers more powerful, accessible models. It could accelerate innovation in local LLM deployment and fine-tuning. The tweet from Arthur Mensch (June 2025) teases a new family of open-weight models, though specific model names, sizes, and release dates have not yet been disclosed. The community is eagerly awaiting further details.
 
-hackernews · HN RSS · Jun 16, 02:47 · [Discussion](https://news.ycombinator.com/item?id=48549918)
+reddit · r/LocalLLaMA · /u/pmttyji · Jun 16, 17:45
 
-**Background**: GitHub, owned by Microsoft, is the world's largest code hosting platform. The rise of AI coding assistants like GitHub Copilot has dramatically increased the number of commits and pull requests, straining infrastructure. Microsoft typically uses its own Azure cloud for its services, so turning to AWS is an unusual step.
+**Background**: Open-weight models make their trained parameters publicly available, allowing users to download, fine-tune, and run them locally. Mistral AI, founded in 2023, is known for releasing high-performing open-weight models like Mistral 7B and Mixtral 8x7B, competing with both open-source and proprietary LLMs.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.businessinsider.com/microsoft-github-amazon-ai-cloud-capacity-2026-6">GitHub 's AI Surge Pushes Microsoft Into... - Business Insider</a></li>
-<li><a href="https://startupfortune.com/github-had-to-call-amazon-for-help-because-its-own-infrastructure-could-not-keep-up-with-ai/">GitHub had to call Amazon for help because its own ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mistral_AI">Mistral AI - Wikipedia</a></li>
+<li><a href="https://medium.com/@thekzgroupllc/open-weight-models-vs-api-only-llms-663ad9895ab3">Open - Weight Models vs API- Only LLMs | by Zaina Haider | Medium</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters noted the irony of Microsoft using AWS, with some sharing insider perspectives on GitHub's historical infrastructure challenges. One commenter highlighted the massive scale of AWS capacity logistics, while another questioned the proportion of bot-generated commits.
+**Discussion**: The Reddit thread shows high excitement, with users speculating about model sizes and potential improvements over previous Mistral models. Some express hope for a truly open-source license, while others caution about the lack of concrete details.
 
-**Tags**: `#Microsoft`, `#GitHub`, `#AWS`, `#AI infrastructure`, `#cloud computing`
+**Tags**: `#AI`, `#open-source`, `#Mistral`, `#LLM`, `#machine learning`
 
 ---
 
 <a id="item-4"></a>
-## [Banned Book Library Hidden in a Wi-Fi Smart Light Bulb](https://www.richardosgood.com/posts/banned-book-library/) ⭐️ 8.0/10
+## [Open-weights Claude Fable-5 distillation released](https://www.reddit.com/r/LocalLLaMA/comments/1u6zj79/claude_fable_5_distilled/) ⭐️ 9.0/10
 
-A developer has created a project that stores banned books on a Wi-Fi smart light bulb by modifying its firmware, turning the bulb into a covert library accessible via a local web server. This project demonstrates a creative method to resist censorship by hiding information in everyday IoT devices, potentially empowering individuals in regions with strict information control. The bulb's limited storage capacity restricts the number of books that can be stored, but the project includes a web interface for browsing and downloading the texts.
+A 35B open-weights model named Qwable-v1 has been released, distilled from Anthropic's Claude Fable-5 model that was briefly public for four days in June 2026 before being suspended under US export controls. This is significant because it captures agentic coding traces and tool-use capabilities from a frontier model that was taken down, making them available to the open-source community under AGPL-3.0. The model is based on Qwen3.6-35B-A3B, trained on only 4,659 cleartext agentic-coding traces over ~14 hours on a single H200, and includes GGUF quantizations and the SFT dataset.
 
-hackernews · HN RSS · Jun 15, 22:37 · [Discussion](https://news.ycombinator.com/item?id=48547985)
+reddit · r/LocalLLaMA · /u/Anony6666 · Jun 16, 01:21
 
-**Background**: Smart light bulbs are IoT devices that connect to Wi-Fi and can be controlled remotely. Modifying their firmware is a known technique for repurposing them, as seen in reverse engineering projects. This project builds on the concept of PirateBox, a portable file-sharing device, but embeds it into a common household item.
+**Background**: Claude Fable-5 was Anthropic's most powerful model at the time, scoring 80.3% on SWE-bench Pro and costing $50 per million output tokens. It had an anti-distillation classifier that redacted thinking blocks, but some traces survived. Distillation involves training a smaller model to mimic a larger one, but the small dataset size (4k samples) raises questions about capability transfer.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.wokwi.com/inside-the-bulb--adventures-in-reverse-engineering-smart-bulb-firmware/">Inside The Bulb : Adventures in Reverse Engineering Smart Bulb ...</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen3.6-35B-A3B">Qwen/Qwen3.6-35B-A3B · Hugging Face</a></li>
+<li><a href="https://scaleapi.github.io/SWE-bench_Pro-os/">SWE-Bench Pro</a></li>
+<li><a href="https://arxiv.org/abs/2504.13146">[2504.13146] Antidistillation Sampling - arXiv.org</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters praised the project's creativity and its relevance to censorship resistance, with some drawing parallels to PirateBox and mesh networking. There was also discussion about the political implications of banned books and the potential for such devices to form a decentralized network.
+**Discussion**: A Reddit commenter warns that 4,000 samples is far too few to meaningfully transfer capabilities, citing that DeepSeek-R1 distillations used ~700,000 samples. They argue such distills may degrade quality and should not be assumed superior to the base model.
 
-**Tags**: `#censorship`, `#IoT`, `#privacy`, `#freedom of information`, `#hacking`
+**Tags**: `#distillation`, `#open-weights`, `#Claude`, `#agentic-coding`, `#LLM`
 
 ---
 
 <a id="item-5"></a>
-## [Iroh 1.0: Peer-to-Peer Networking Library Released](https://www.iroh.computer/blog/v1) ⭐️ 8.0/10
+## [Local LLMs Are Now Practical and Competitive](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/) ⭐️ 8.0/10
 
-Iroh 1.0 has been released as a peer-to-peer networking library in Rust that enables secure, direct connections between app instances using public keys instead of IP addresses, without relying on centralized infrastructure. This simplifies application-level networking for developers, making it easier to build decentralized apps with built-in NAT traversal and relay support, akin to Tailscale at the application layer. Iroh uses QUIC as the transport protocol and supports custom transports via a plugin system, allowing integration with WebRTC, BLE, or other protocols in the future.
+A blog post argues that running local language models has become practical and competitive with cloud APIs, citing improved tools and model availability as of mid-2026. This shift could reduce reliance on cloud providers, lower costs for frequent users, and increase privacy and control over AI models. Local models still face trade-offs: dense models like Qwen 27B are smart but slow, while MoE models like Gemma 26B are faster but error-prone; quantization at 4-bit often degrades tool-calling quality.
 
-hackernews · HN RSS · Jun 15, 15:13 · [Discussion](https://news.ycombinator.com/item?id=48542480)
+hackernews · HN RSS · Jun 16, 14:36 · [Discussion](https://news.ycombinator.com/item?id=48555993)
 
-**Background**: Traditional peer-to-peer networking often requires complex NAT traversal and relay setup. Iroh abstracts this by using public key-based addressing and automatic path discovery, similar to how Tailscale creates a mesh VPN but at the application layer.
+**Background**: Large language models (LLMs) are typically run on cloud servers due to high hardware demands. Quantization reduces model size by lowering numerical precision, enabling local deployment on consumer GPUs, but can degrade performance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.iroh.computer/">Iroh</a></li>
-<li><a href="https://github.com/n0-computer/iroh">GitHub - n0-computer/iroh: IP addresses break, dial keys instead ...</a></li>
-<li><a href="https://deepwiki.com/n0-computer/iroh">n0-computer/iroh | DeepWiki</a></li>
+<li><a href="https://www.tensorops.ai/post/what-are-quantized-llms">LLM Quantization : Techniques, Advantages, and Models</a></li>
+<li><a href="https://www.sitepoint.com/local-llms-complete-guide/">The Complete Developer's Guide to Running LLMs Locally</a></li>
+<li><a href="https://dasroot.net/posts/2026/01/local-llm-deployment-ollama-llama.cpp/">Local LLM Deployment with Ollama and llama.cpp: A Comprehensive Guide</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion highlights comparisons to Tailscale, questions about custom transport support (e.g., WebRTC, BLE), and requests for clearer documentation on key types and relay usage. Developers express interest in decentralized networking but note the need for broader adoption.
+**Discussion**: Community comments highlight ongoing pain points: slow inference on dense models, mistakes on MoE models, and degraded tool calling with quantization. Some users still prefer local models over cloud ones for subjective quality, while others find cloud models superior for complex tasks.
 
-**Tags**: `#networking`, `#peer-to-peer`, `#rust`, `#open-source`, `#p2p`
+**Tags**: `#local LLMs`, `#AI`, `#machine learning`, `#open source`, `#model deployment`
 
 ---
 
 <a id="item-6"></a>
-## [Fox to Acquire Roku in $22 Billion Deal](https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9) ⭐️ 8.0/10
+## [Reflex.dev Boosts Python ast.walk by 220x](https://reflex.dev/blog/why-ast-walk-when-you-can-ast-sprint/) ⭐️ 8.0/10
 
-Fox Corporation has agreed to acquire Roku in a cash-and-stock deal valued at approximately $22 billion, as reported by the Wall Street Journal and other sources. The transaction is expected to close in the first half of 2027, subject to regulatory approvals. This acquisition would give Fox direct control over Roku's streaming platform, which powers roughly 30-50% of U.S. households, raising serious antitrust concerns and threatening Roku's historically neutral platform. The deal could reshape the streaming landscape by potentially favoring Fox's own services (e.g., Tubi) over competitors, leading to user backlash and partner churn. The deal is structured as a cash-and-stock transaction, and Fox may need to divest certain Roku assets or accept operational restrictions to secure antitrust approval. Roku CEO Anthony Wood has stated the company will continue to operate as an open, partner-friendly platform, but analysts warn of real platform bias risks.
+Reflex.dev published a blog post detailing how they optimized Python's ast.walk function, achieving a 220x speedup for AST traversal. This significant performance improvement can benefit many Python tools that rely on AST traversal, such as linters, formatters, and static analyzers, potentially reducing their execution time dramatically. The optimization likely involves replacing the recursive implementation with an iterative one or using a more efficient traversal strategy, though the exact method is not specified in the provided content.
 
-hackernews · HN RSS · Jun 15, 12:50 · [Discussion](https://news.ycombinator.com/item?id=48540499)
+hackernews · HN RSS · Jun 16, 16:25 · [Discussion](https://news.ycombinator.com/item?id=48557768)
 
-**Background**: Roku is a leading streaming device and platform provider, known for its hardware-agnostic and neutral approach to content distribution. Fox is a major media conglomerate that owns Fox News, Fox Sports, and the free ad-supported streaming service Tubi. The acquisition combines a content giant with a dominant distribution platform, raising concerns about vertical integration and market power.
+**Background**: AST (Abstract Syntax Tree) is a tree representation of source code used by compilers and tools to analyze and transform code. Python's ast.walk is a standard function that performs a depth-first traversal of an AST, but its recursive implementation can be slow for large trees.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://invezz.com/news/2026/06/15/fox-stock-why-investors-seem-to-dislike-the-22b-roku-deal/">Fox stock: why investors seem to dislike the $22 billion Roku deal</a></li>
-<li><a href="https://www.thewrap.com/industry-news/deals-ma/fox-roku-acquisition-impact-analysis/">How Roku Will Supercharge Fox’s Streaming and Advertising Businesses | Analysis</a></li>
+<li><a href="https://docs.python.org/3/library/ast.html">ast — Abstract syntax trees — Python 3.14.6 documentation</a></li>
+<li><a href="https://stackoverflow.com/questions/39063413/how-to-do-a-tree-walk-recursively-on-an-abstract-syntax-tree">python - How to do a "tree walk" recursively on an Abstract ... Code sample</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Abstract_syntax_tree">Abstract syntax tree - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is overwhelmingly negative, with users expressing pessimism about Roku's future neutrality and citing concerns over forced Fox content and increased ads. Many users are already migrating to alternatives like Nvidia Shield with custom launchers, and some argue that Fox should not be allowed to purchase direct access to so many households' TV hardware.
+**Discussion**: Commenters appreciated the effort to optimize idiomatic Python first, and asked whether the optimization could be applied to tools like libCST and bandit. One commenter humorously guessed the improved version was written in Rust.
 
-**Tags**: `#acquisition`, `#streaming`, `#media`, `#antitrust`, `#Roku`
+**Tags**: `#Python`, `#AST`, `#performance optimization`, `#compiler`, `#tooling`
 
 ---
 
 <a id="item-7"></a>
-## [Salesforce Acquires Fin for $3.6B to Boost AI Agents](https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL) ⭐️ 8.0/10
+## [SubQ 1.1 Small: Learned Sparse Attention Cuts Compute 64.5x](https://subq.ai/subq-1-1-small-technical-report) ⭐️ 8.0/10
 
-Salesforce has signed a definitive agreement to acquire Fin, formerly Intercom, for approximately $3.6 billion. Fin is an AI customer service platform whose AI agent resolves 76% of inbound support queries without human handoff. This acquisition signals intensifying competition in AI-powered customer service agents, with Salesforce directly challenging rivals like Sierra (valued at $15.8B) and Decagon ($4.5B). It also prevents independent AI support agents from becoming a control point outside the CRM ecosystem. Fin's AI agent is powered by its proprietary Apex model and works across multiple channels including live chat, email, WhatsApp, SMS, phone, and Slack. The company was generating $100 million in ARR growing at 350% annually before the acquisition.
+SubQ 1.1 Small introduces a learned sparse attention mechanism (SSA) that scales linearly with context length, achieving 64.5x less compute and 56x faster inference than dense attention at 1M tokens. This breakthrough could dramatically reduce the cost of processing very long contexts in LLMs, enabling applications like whole-document analysis or long-form video understanding without prohibitive compute. The model achieves near-perfect needle-in-a-haystack retrieval up to 12M tokens despite being trained predominantly at 1M tokens, compressing attention to just 0.13% of all token relationships.
 
-hackernews · HN RSS · Jun 15, 12:08 · [Discussion](https://news.ycombinator.com/item?id=48540126)
+hackernews · HN RSS · Jun 16, 14:50 · [Discussion](https://news.ycombinator.com/item?id=48556163)
 
-**Background**: Salesforce is a global leader in CRM software, and has been pushing into AI with its Agentforce platform. Fin started as Intercom, a popular customer messaging platform, and rebranded to Fin about a month ago to focus on AI agents. The deal folds Fin's proven autonomous support agent into Salesforce's existing offerings.
+**Background**: Standard transformer attention has quadratic complexity O(n²) with sequence length, making long contexts expensive. Sparse attention mechanisms reduce this by attending only to a subset of tokens. SubQ's SSA learns which tokens to attend to based on content, rather than using fixed patterns like sliding windows.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/">Salesforce Signs Definitive Agreement to Acquire Fin</a></li>
-<li><a href="https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/">Salesforce acquires AI customer service platform Fin for $3.6B</a></li>
-<li><a href="https://startupfortune.com/salesforce-spends-36-billion-on-fin-to-buy-proof-it-could-not-build-in-time/">Salesforce spends $3.6 billion on Fin to buy proof it could not build ...</a></li>
+<li><a href="https://iieta.org/journals/isi/paper/10.18280/isi.301112">Efficient Transformer Architectures via Learnable Sparse Attention ...</a></li>
+<li><a href="https://www.shadecoder.com/topics/sparse-attention-transformers-a-comprehensive-guide-for-2025">Sparse Attention Transformers: A Comprehensive Guide for 2025...</a></li>
+<li><a href="https://pub.towardsai.net/comparing-dense-attention-vs-sparse-sliding-window-attention-6cd5b2e7420f?gi=2292a45a15b3">Comparing Dense Attention vs Sparse Sliding Window Attention | by Building Blocks | Towards AI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is mixed: some praise AI customer service when executed well, while others are skeptical about Salesforce's ability to integrate Fin without degrading the product. Several commenters note the competitive dynamics with Sierra and Decagon, and some question the long-term viability of helpdesk SaaS for non-enterprise customers.
+**Discussion**: Community comments show excitement about the efficiency gains, but some express skepticism due to the lack of architectural details and missing benchmarks like RULER at long contexts. One commenter notes that Chinese labs are more open with specs and code.
 
-**Tags**: `#acquisition`, `#AI`, `#customer support`, `#SaaS`, `#Salesforce`
+**Tags**: `#LLM`, `#attention mechanism`, `#sparse attention`, `#long context`, `#efficiency`
 
 ---
 
 <a id="item-8"></a>
-## [TimescaleDB Hypercore Compression: Up to 98% Ratio](https://roszigit.com/en/blog/timescaledb-compression-hypercore) ⭐️ 8.0/10
+## [Meta's Engineering Culture Under Fire](https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering) ⭐️ 8.0/10
 
-TimescaleDB introduced Hypercore, a new compression engine that uses columnar storage and type-aware algorithms to achieve up to 98% compression ratio for time-series data in PostgreSQL. This breakthrough significantly reduces storage costs and improves query performance for time-series workloads, making PostgreSQL a more competitive option for IoT and monitoring applications. Hypercore converts older chunks into columnar format using segmentby and orderby configuration, and applies different compression algorithms based on data types (e.g., delta-of-delta for timestamps, XOR for floats).
+A critical analysis published on The Pragmatic Engineer newsletter argues that Meta's engineering organization is in decline due to cultural and structural issues, including layoffs and inefficiency. This matters because Meta is one of the largest tech employers, and its engineering practices influence the broader industry. The analysis highlights how organizational dysfunction can undermine even well-funded engineering teams. The article claims that 30-50% of engineers on core teams have been reassigned to data labeling and RLHF tasks, causing frustration. It also notes that acquired companies like WhatsApp and Instagram have better engineering cultures than Meta's homegrown orgs.
 
-hackernews · HN RSS · Jun 15, 17:29 · [Discussion](https://news.ycombinator.com/item?id=48544451)
+hackernews · HN RSS · Jun 16, 16:42 · [Discussion](https://news.ycombinator.com/item?id=48558045)
 
-**Background**: Time-series data is highly repetitive, making it ideal for compression. Traditional row-based storage in PostgreSQL is inefficient for such data. Columnar storage stores data by column, enabling better compression and faster analytical queries. Type-aware algorithms further optimize compression by exploiting patterns specific to each data type.
+**Background**: Meta, formerly Facebook, has faced multiple rounds of layoffs and restructuring since 2022. The company's engineering culture has been criticized for over-hiring and shifting priorities, especially as it pivots heavily toward AI and the metaverse.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://roszigit.com/en/blog/timescaledb-compression-hypercore/">TimescaleDB Compression: Hypercore and Columnar Storage with ...</a></li>
-<li><a href="https://github.com/timescale/docs/blob/latest/use-timescale/hypercore/compression-methods.md">docs/use-timescale/hypercore/compression-methods.md ... - GitHub</a></li>
-<li><a href="https://www.tigerdata.com/docs/build/how-to/basic-compression">Basic compression with hypercore | Tiger Data Docs</a></li>
+**Discussion**: Commenters express mixed sentiments: some blame engineers for choosing to work at Meta despite its reputation, while others note that acquired companies have better cultures. A few question the plausibility of reassigning engineers to data labeling.
 
-</ul>
-</details>
-
-**Discussion**: Commenters debated the trade-offs between compression and query performance, with some noting that dictionary encoding can slow reads. Others mentioned alternatives like DeltaX and swinging-door compression, and criticized the use of 'up to' in performance claims.
-
-**Tags**: `#TimescaleDB`, `#compression`, `#time-series`, `#PostgreSQL`, `#database`
+**Tags**: `#Meta`, `#engineering culture`, `#layoffs`, `#big tech`, `#organizational behavior`
 
 ---
 
 <a id="item-9"></a>
-## [Laser Phase Plate Boosts Cryo-EM Contrast](https://biohub.org/blog/laser-phase-plate-cryo-em-making-invisible-visible/) ⭐️ 8.0/10
+## [x86 Emulator Team Fixed Bad Code During Emulation](https://devblogs.microsoft.com/oldnewthing/20260615-00/?p=112419) ⭐️ 8.0/10
 
-Researchers at Biohub and UC Berkeley have developed a laser phase plate for cryo-electron microscopy that dramatically improves image contrast of unstained biological samples, using a laser 100 million times brighter than the Sun. This breakthrough addresses a key limitation of cryo-EM—low contrast for unstained samples—enabling visualization of molecular structures in their native state without heavy metal stains, which could accelerate discoveries in structural biology and drug development. The laser phase plate converts phase shifts of the electron beam into enhanced image contrast without attenuating the beam, unlike traditional physical phase plates. The technique was demonstrated on the Titan Krios cryo-EM platform.
+The x86 emulator team at Microsoft found a program that allocated 64KB on the stack using a naive loop, causing severe performance issues, and they patched the code during emulation to improve speed. This story highlights how emulators and compatibility layers like Wine/Proton can work around poorly written software, improving user experience even on the original platform. It underscores the ongoing importance of software compatibility in gaming and legacy applications. The program used a loop to initialize the 64KB stack memory byte by byte, which was extremely slow under emulation. The emulator team detected this pattern and replaced it with a faster memset-like operation during runtime.
 
-rss · HN RSS · Jun 14, 07:44
+hackernews · HN RSS · Jun 16, 04:46 · [Discussion](https://news.ycombinator.com/item?id=48550693)
 
-**Background**: Cryo-electron microscopy (cryo-EM) is a technique that images biological samples at cryogenic temperatures to determine molecular structures at near-atomic resolution. However, unstained biological samples are nearly transparent to electrons, resulting in low contrast. Traditional methods use heavy metal stains to enhance contrast, but these can alter native structures. Phase plates have been explored to improve contrast, but earlier designs suffered from beam attenuation and charging issues.
+**Background**: Emulators translate instructions from one architecture (e.g., x86) to another, often incurring performance overhead. Poorly written code that works fine on real hardware can become painfully slow under emulation, prompting developers to implement workarounds. This practice is common in modern compatibility layers like Proton for Linux gaming.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://biohub.org/news/laser-phase-plate-microscope-breakthrough/">Laser Phase Plate Cryo -EM Breakthrough - Biohub</a></li>
-<li><a href="https://www.photonics.com/Articles/Laser-Phase-Plate-Boosts-Cryo-Electron-Microscopy/a72325">Laser Phase Plate Boosts Cryo - Electron Microscopy | Jun 2026</a></li>
-<li><a href="https://phys.org/news/2026-06-physicists-phase-contrast-electron-microscopy.html">Physicists introduce phase contrast to electron microscopy ...</a></li>
+**Discussion**: Commenters shared similar experiences, such as a game using fread with a 64KB buffer causing slowdowns, and noted that SimCity had a read-after-free bug patched by Microsoft in Windows 95. Some observed that Proton now incorporates hotfixes for poorly ported games like Elden Ring, benefiting Linux users while Windows users still suffer.
 
-</ul>
-</details>
-
-**Tags**: `#cryo-EM`, `#structural biology`, `#microscopy`, `#biophysics`, `#laser technology`
+**Tags**: `#emulation`, `#software compatibility`, `#x86`, `#retro computing`, `#game development`
 
 ---
 
 <a id="item-10"></a>
-## [AI speeds work but weakens reasoning, user warns](https://www.reddit.com/r/artificial/comments/1u6bha1/ai_makes_me_faster_and_less_myself/) ⭐️ 8.0/10
+## [Qwen Launches Foundation Model Suite for Robotics](https://qwen.ai/blog?id=qwen-robotsuite) ⭐️ 8.0/10
 
-A Reddit user and AI adoption consultant reports that heavy daily use of LLMs like ChatGPT has led to cognitive offloading, reducing their own reasoning and critical thinking. They launched a survey to gauge if this experience is widespread. This highlights a growing concern about AI's impact on human cognition, especially as AI tools become integrated into professional workflows. If widespread, it could affect decision quality and intellectual autonomy across industries. The user works in automotive, finance, and consulting, observing colleagues delegating thought processes to AI and approving results without internalizing them. They plan to build a tool to help users work with AI while preserving their own reasoning.
+Qwen has released a foundation model suite for physical world intelligence, targeting robotics and embodied AI applications. The suite includes models for language, vision, audio, and code, designed to be integrated into robotic systems. This release marks a significant step in bridging large language models with physical robotics, potentially accelerating the development of intelligent robots that can understand and interact with the real world. It could lower the barrier for researchers and developers to build embodied AI systems. The suite includes models ranging from 0.6B to 235B parameters, covering dense and mixture-of-experts architectures. It supports multimodal inputs including text, images, and audio, enabling robots to perceive and reason about their environment.
 
-reddit · r/artificial · /u/Logical-Caregiver375 · Jun 15, 09:19
+hackernews · HN RSS · Jun 16, 13:15 · [Discussion](https://news.ycombinator.com/item?id=48554814)
 
-**Background**: Cognitive offloading is the practice of using external tools (e.g., calculators, GPS) to reduce mental effort. While not inherently harmful, over-reliance on AI for reasoning—not just execution—may erode critical thinking skills, a phenomenon now being studied in psychology and human-computer interaction.
+**Background**: Embodied AI refers to the integration of AI into physical systems, allowing them to interact with the real world. Foundation models are large pre-trained models that can be fine-tuned for specific tasks, and applying them to robotics is an active research area. Qwen is a series of open-source foundation models developed by Alibaba Cloud.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.computer.org/publications/tech-news/trends/cognitive-offloading">Cognitive Offloading: How AI is Quietly Eroding Our Critical ...</a></li>
-<li><a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1699320/full">Frontiers | Cognitive offloading or cognitive overload? How AI alters the mental architecture of coping</a></li>
-<li><a href="https://www.mdpi.com/2075-4698/15/1/6">AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</a></li>
+<li><a href="https://qwen.moe/">Qwen — Open Foundation Models</a></li>
+<li><a href="https://huggingface.co/Qwen/Qwen-Image">Qwen / Qwen -Image · Hugging Face</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/embodied-ai/">What is Embodied AI? | NVIDIA Glossary</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit post resonated with many commenters who shared similar experiences of feeling less engaged in their own work. Some debated whether this is a new problem or an extension of existing offloading behaviors, while others expressed interest in the proposed tool.
+**Discussion**: Community comments express enthusiasm, with one user stating 'qwen just keeps delivering, it's too good.' Another user asks about hardware platforms that can leverage these models, indicating interest in practical deployment.
 
-**Tags**: `#AI`, `#cognitive offloading`, `#critical thinking`, `#productivity`, `#LLM`
+**Tags**: `#AI`, `#robotics`, `#foundation models`, `#embodied intelligence`, `#Qwen`
 
 ---
 
 <a id="item-11"></a>
-## [7 Security Layers for AI Agents in Production](https://www.reddit.com/r/artificial/comments/1u6ushq/7_layers_of_security_every_ai_agent_needs_before/) ⭐️ 8.0/10
+## [LLM 'fix this code' prompt bypasses safety filters](https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827) ⭐️ 8.0/10
 
-A practical guide outlines seven prioritized security layers to protect AI agents from prompt injection and other attacks, with code examples and specific techniques like Aho-Corasick pattern matching and entropy scoring. 73% of production AI deployments showed prompt injection exposure in security audits, and most had zero defensive layers, making this guide critical for preventing real-world attacks that can compromise AI systems. The layers range from immediate steps like hardening system prompts and adversarial testing to week-1 measures like structural analysis and tool call validation, and week-2 multi-turn session tracking.
+Researchers discovered that asking an LLM to 'fix this code' can generate exploit code without triggering safety guardrails, effectively jailbreaking the model in a near-unfixable way. This technique highlights a fundamental challenge in AI security: safety filters can be bypassed by framing malicious requests as benign code-fixing tasks, undermining claims of robust safety measures. The 'fix this code' prompt works by asking the model to correct vulnerabilities, which inadvertently produces exploit code; the approach is considered nearly unfixable without severely degrading model utility.
 
-reddit · r/artificial · /u/Still_Piglet9217 · Jun 15, 21:59
+hackernews · _tk_ · Jun 16, 09:26 · [Discussion](https://news.ycombinator.com/item?id=48552687)
 
-**Background**: Prompt injection is a type of social engineering attack targeting conversational AI, where malicious instructions are injected via third-party content. The Aho-Corasick algorithm is a fast string-searching algorithm that can match multiple patterns simultaneously in sub-millisecond time.
+**Background**: LLM jailbreaking involves crafting prompts that bypass built-in safety filters to generate prohibited content. Traditional jailbreaks use role-play or encoding tricks, but the 'fix this code' method exploits the model's code-fixing capability directly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Prompt_injection_attack">Prompt injection attack</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Aho-Corasick_algorithm">Aho-Corasick algorithm</a></li>
-<li><a href="https://openai.com/safety/prompt-injections/">Understanding prompt injections - OpenAI</a></li>
+<li><a href="https://www.lakera.ai/blog/jailbreaking-large-language-models-guide">Jailbreaking Large Language Models : Techniques , Examples...</a></li>
+<li><a href="https://www.confident-ai.com/blog/how-to-jailbreak-llms-one-step-at-a-time">How to Jailbreak LLMs One Step at a Time: Top Techniques and...</a></li>
+<li><a href="https://www.cyberark.com/resources/threat-research-blog/jailbreaking-every-llm-with-one-simple-click">Jailbreaking Every LLM With One Simple Click</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI security`, `#prompt injection`, `#production AI`, `#security best practices`
+**Discussion**: Commenters praised the elegance of the jailbreak, noting it is both trivial and nearly unfixable. Some criticized Anthropic's strategy of claiming high danger while releasing models with such vulnerabilities, and others suggested political motivations behind the federal response.
+
+**Tags**: `#AI safety`, `#jailbreak`, `#LLM`, `#security`, `#Anthropic`
 
 ---
 
 <a id="item-12"></a>
-## [A Love Letter to Computers Amid Industry Discontent](https://michaelenger.com/blog/i-love-the-computer/) ⭐️ 7.0/10
+## [OpenAI Predicts Model Behavior Before Release](https://openai.com/index/deployment-simulation) ⭐️ 8.0/10
 
-Michael Enger published a reflective essay titled "I Love the Computer" on his blog, expressing enduring affection for computing while criticizing the modern tech industry and AI hype. The essay resonates with many developers who share a nostalgic love for tinkering with computers but feel alienated by the industry's focus on AI and rapid change, sparking a rich discussion on Hacker News. The post scored 7.0/10 on Hacker News with 172 points and 105 comments, reflecting high engagement. The author contrasts the joy of low-level programming (e.g., 6502 assembler) with the pressure to use AI tools like LLMs.
+OpenAI introduced Deployment Simulation, a method that uses real conversation data to predict AI model behavior before deployment, aiming to improve safety and evaluation accuracy. This method addresses a critical challenge in AI safety by enabling pre-deployment detection of harmful behaviors, potentially reducing risks in real-world applications. The approach leverages real conversation data rather than synthetic scenarios, making simulations more realistic and evaluations more reliable.
 
-hackernews · HN RSS · Jun 15, 20:14 · [Discussion](https://news.ycombinator.com/item?id=48546441)
+rss · OpenAI Blog · Jun 16, 00:00
 
-**Background**: The essay is a personal reflection on the author's lifelong love for computers, from early tinkering to professional work. It touches on themes of nostalgia, the gatekeeping sentiment in tech, and the tension between pure enjoyment and industry demands.
+**Background**: AI models often exhibit unexpected behaviors after deployment, leading to safety concerns. Traditional evaluation methods rely on static test sets, which may not capture real-world interactions. Deployment Simulation uses dynamic, real-world data to better predict model behavior.
 
-**Discussion**: Comments show mixed sentiment: some agree with the author's love for computing but dislike the industry (suyavuz), while others defend AI as a useful tool (fasterik). A notable comment (tptacek) criticizes the essay as gatekeeping, arguing that the author's formative experience shouldn't dictate how others use computers.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://catobot.com/blog/ai-safety-through-simulation/">AI Safety Through Human-Centred Simulation | The Cato Bot Company</a></li>
 
-**Tags**: `#computing`, `#nostalgia`, `#AI`, `#tech industry`, `#personal reflection`
+</ul>
+</details>
+
+**Tags**: `#AI safety`, `#model evaluation`, `#deployment simulation`, `#OpenAI`
 
 ---
 
 <a id="item-13"></a>
-## [Homelab AI Dev Platform with Forgejo and Argo Workflows](https://rsgm.dev/post/ai-dev-platform/) ⭐️ 7.0/10
+## [Octopus Architecture: A New Pattern for AI Agent Orchestration](https://blog.goodman.dev/blog/octopus-agent-architecture/) ⭐️ 8.0/10
 
-A developer shared their homelab AI development platform that uses Forgejo, Argo Workflows, and agentic loops to automatically create and review pull requests. This approach demonstrates a novel way to integrate AI agents into CI/CD pipelines using self-hosted infrastructure, enabling automated code generation and review without relying on external services. The platform uses Forgejo tag listeners to trigger Argo Workflows that orchestrate a loop: issue tagging, PR writing, testing, review and revision, merge mutex, and rebase merge. The agentic loop ensures automated, iterative improvement of code changes.
+Geoff Goodman introduced the octopus architecture, a design pattern for orchestrating multiple AI agents with a central coordinating brain that dispatches tasks to semi-autonomous sub-brains. This architecture offers a novel approach to multi-agent coordination, potentially improving scalability and robustness in complex AI systems, which is crucial as AI agents become more prevalent in real-world applications. The octopus architecture draws inspiration from the biological octopus, where a central brain coordinates semi-autonomous arms, and it is designed to handle complex tasks by delegating subtasks to specialized agents.
 
-hackernews · HN RSS · Jun 15, 15:09 · [Discussion](https://news.ycombinator.com/item?id=48542433)
+rss · HN RSS · Jun 16, 17:24
 
-**Background**: Forgejo is a self-hosted Git forge similar to GitHub or GitLab, while Argo Workflows is a Kubernetes-native workflow engine for orchestrating parallel jobs. Agentic loops refer to AI systems that can plan, act, and self-correct until a task is completed, often used in autonomous coding agents.
+**Background**: Multi-agent systems involve multiple AI agents working together to solve problems. Orchestration patterns like the octopus architecture help manage agent communication and task allocation, which is a key challenge in building scalable AI systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Forgejo">Forgejo</a></li>
-<li><a href="https://argoproj.github.io/workflows/">Argo Workflows - GitHub Pages</a></li>
-<li><a href="https://github.com/agenticloops-ai/agentic-ai-engineering">GitHub - agenticloops-ai/agentic-ai-engineering: Hands-on ...</a></li>
+<li><a href="https://blog.goodman.dev/blog/octopus-agent-architecture/">The octopus architecture for AI agents | Geoff Goodman</a></li>
+<li><a href="https://github.com/nyldn/claude-octopus">GitHub - nyldn/claude-octopus: Surface AI blindspots before you ship. Put up to 8 AI models on every research, design or coding task. · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multi-agent_system">Multi-agent system - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members shared similar implementations, with some using Forgejo action runners with Opencode, and others using systemd timers with restricted environments. There was a sense of parallel discovery, with many independently building similar systems.
-
-**Tags**: `#AI`, `#DevOps`, `#Homelab`, `#Automation`, `#CI/CD`
+**Tags**: `#AI agents`, `#architecture`, `#software design`, `#multi-agent systems`
 
 ---
 
 <a id="item-14"></a>
-## [Exploring a Fully Automated Economy Without Human Labor](https://gmalandrakis.com/writings/ad-economicum.html) ⭐️ 7.0/10
+## [GLM-5.2: First Open-weights Model to Top Terminal-Bench](https://www.reddit.com/r/LocalLLaMA/comments/1u7kcwf/zaiorgglm52_is_here/) ⭐️ 8.0/10
 
-An article by George Malandrakis examines the technical feasibility and societal implications of a fully automated economy where human labor becomes obsolete, challenging common assumptions about AI's economic impact. This analysis is significant because it sparks debate among engineers and economists about the future of work, wealth distribution, and governance in a post-labor economy, a topic increasingly relevant as AI and automation advance. The article argues that a peopleless economy is technically possible but faces political and social hurdles, such as government resistance and the need for new distribution mechanisms. It also notes that AI could make labor less valuable and capital more valuable.
+zai-org released GLM-5.2, the first open-weights model to surpass 80% on Terminal-Bench, outperforming all other open models and even Gemini. This demonstrates that open-weights models can achieve frontier-level performance at a fraction of the cost, potentially democratizing access to advanced AI agents for terminal tasks. Terminal-Bench evaluates AI agents on 80 real terminal tasks like compiling code and setting up servers. GLM-5.2 also ranks #2 on WebDev benchmarks according to community reports.
 
-hackernews · HN RSS · Jun 15, 21:10 · [Discussion](https://news.ycombinator.com/item?id=48547062)
+reddit · r/LocalLLaMA · /u/queendumbria · Jun 16, 17:36
 
-**Background**: A fully automated economy refers to a system where production, distribution, and other economic functions are operated by autonomous machines and AI with minimal human intervention. Post-labor economics explores economic models for a future where most human labor is obsolete, focusing on decoupling economic progress from human work.
+**Background**: Open-weights models make the trained neural network parameters publicly accessible, allowing use and modification. Terminal-Bench is a benchmark for testing AI agents in real terminal environments. Cline is an agentic CLI coding tool that referenced this model.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.linkedin.com/pulse/how-agi-could-create-first-fully-automated-economy-qvgee">How AGI Could Create the First Fully Automated Economy</a></li>
-<li><a href="https://grokipedia.com/page/Post-labor_economics">Post-labor economics</a></li>
-<li><a href="https://medium.com/@dave-shap/what-is-post-labor-economics-a-gentle-introduction-81aa265abbe0">What is "Post-Labor Economics"? A Gentle Introduction</a></li>
+<li><a href="https://www.tbench.ai/?trk=article-ssr-frontend-pulse_little-text-block">Terminal - Bench</a></li>
+<li><a href="https://github.com/harbor-framework/terminal-bench">GitHub - harbor-framework/ terminal - bench : A benchmark for LLMs...</a></li>
+<li><a href="https://promptmetheus.com/resources/llm-knowledge-base/open-weights-model">Open - weights Model | LLM Knowledge Base</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments reveal a split: some argue AI will concentrate wealth like past technologies, while others caution that economists, not engineers, should analyze economic impacts. There is skepticism about governments peacefully managing mass unemployment, with suggestions that oppression or new economic systems may be needed.
+**Discussion**: The community is excited, calling it a 'game changer' and noting it beats Gemini. One user highlighted its #2 spot on WebDev benchmarks.
 
-**Tags**: `#AI`, `#economics`, `#automation`, `#future of work`, `#technology impact`
+**Tags**: `#LLM`, `#open-source`, `#GLM`, `#AI`, `#release`
 
 ---
 
 <a id="item-15"></a>
-## [Hetzner Cloud Server Prices Surge Up to 3x](https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment/#cloud-servers) ⭐️ 7.0/10
+## [VibeThinker-3B achieves frontier math and coding performance](https://www.reddit.com/r/LocalLLaMA/comments/1u7dzdr/scaling_former_vibethinker15b_to_3b_now_it/) ⭐️ 8.0/10
 
-Hetzner announced substantial price adjustments for its cloud servers, with some VPS plans increasing by up to 3x, effective February 1, 2025. This significant price hike from a major European cloud provider reflects broader hardware cost increases driven by AI demand, potentially impacting small businesses and developers who rely on affordable VPS hosting. For example, a 2-core/2 GB VPS plan rose from $6.99/month to $20.49/month. The price for traffic overage remains unchanged.
+The team behind VibeThinker scaled their 1.5B reasoning model to 3B parameters, achieving 94.3 on AIME'26, 80.2 on LiveCodeBench v6, and 96.1% first-attempt pass rate on recent LeetCode contests. This demonstrates that small language models (SLMs) can rival frontier models in math and coding, challenging the assumption that only large models can achieve top performance. The model was evaluated with vLLM/Sglang at temperature 1.0, top_p 0.95, and top_k -1. It still has limitations in general-purpose tasks, but the team plans to improve those areas.
 
-hackernews · HN RSS · Jun 15, 13:19 · [Discussion](https://news.ycombinator.com/item?id=48540844)
+reddit · r/LocalLLaMA · /u/Used-Negotiation-741 · Jun 16, 13:44
 
-**Background**: Hetzner is a popular German cloud provider known for its low-cost VPS and dedicated servers. The price increase is attributed to rising costs of hardware components like RAM and SSDs, partly due to increased demand from AI and data centers.
+**Background**: AIME'26 is a benchmark of 30 olympiad-level math problems from the 2026 American Invitational Mathematics Examination. LiveCodeBench v6 is a continuously updated coding benchmark for competitive programming. IMO-AnswerBench evaluates mathematical reasoning on International Mathematical Olympiad problems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://lowendtalk.com/discussion/200033/hetzner-black-friday-price-increase-surprise">Hetzner Black Friday Price Increase Surprise — LowEndTalk</a></li>
+<li><a href="https://llm-stats.com/benchmarks/aime-2026">AIME 2026 Leaderboard - llm-stats.com</a></li>
+<li><a href="https://livecodebench.github.io/">LiveCodeBench : Holistic and Contamination Free Evaluation of Large...</a></li>
+<li><a href="https://llm-stats.com/benchmarks/imo-answerbench">IMO - AnswerBench Benchmark Leaderboard | LLM Stats</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions are largely negative, with users expressing shock at the 3x increase and questioning the justification. Some speculate Hetzner may be trying to shed low-margin customers, while others note that hyperscalers like AWS may have more leverage to keep prices stable.
-
-**Tags**: `#cloud computing`, `#pricing`, `#hardware costs`, `#AI infrastructure`
+**Tags**: `#small language models`, `#reasoning`, `#math`, `#coding`, `#AI research`
 
 ---
 
 <a id="item-16"></a>
-## [US Battery Manufacturing Output Hits Record High](https://fred.stlouisfed.org/series/IPG33591S) ⭐️ 7.0/10
+## [Calvin and Hobbes and the Price of Integrity](https://therepublicofletters.substack.com/p/calvin-and-hobbes-and-the-price-of) ⭐️ 7.0/10
 
-US battery manufacturing output continues to break records, as indicated by the FRED series IPG33591S, though global comparisons show China and Europe have much higher production capacity. This milestone signals growth in US domestic battery production, which is critical for energy storage and electric vehicle supply chains, but the vast gap with China highlights the need for accelerated investment. Community comments cite 2025 cell production capacity estimates: USA 70 GWh, China 1755 GWh, Europe 252 GWh, excluding small batteries for electronics. The FRED series may include primary batteries, which could inflate the output figures.
+An essay explores Bill Watterson's principled refusal to commercialize Calvin and Hobbes, including his decision to paint over a mural rather than sell it, highlighting the value of artistic integrity. This story serves as a powerful example for creators in any field, especially software engineers, about the importance of maintaining integrity over profit, and it sparks discussion on the ethics of creative work. Watterson fought against merchandising his strip, and when a publisher wanted to buy a mural he painted, he whitewashed it instead. Only 7 out of 1,800 newspapers actually canceled the strip after his controversial Sunday format changes.
 
-hackernews · HN RSS · Jun 15, 20:28 · [Discussion](https://news.ycombinator.com/item?id=48546616)
+hackernews · HN RSS · Jun 16, 15:44 · [Discussion](https://news.ycombinator.com/item?id=48557079)
 
-**Background**: Battery manufacturing output measures the production of batteries used in vehicles, grid storage, and consumer electronics. The US has been investing in domestic battery production to reduce reliance on imports, especially from China, which dominates global supply.
+**Background**: Bill Watterson created Calvin and Hobbes from 1985 to 1995, famously refusing to license his characters for merchandise. He also fought with syndicates over strip size and format, prioritizing artistic control over broader distribution. The essay uses his story to discuss the tension between commercial success and creative integrity.
 
-**Discussion**: Commenters note the stark capacity gap between the US and China, with some pointing out that US figures may include primary batteries. Others reference BYD's Blade 2.0 battery specs and recommend the 'Electric Slide' newsletter for context on China's lead.
+**Discussion**: Commenters praised the essay's writing and Watterson's integrity, with some noting the rarity of such principled stands. Others debated the practical implications, pointing out that the threat of cancellation was less severe than initially portrayed.
 
-**Tags**: `#battery manufacturing`, `#energy storage`, `#US manufacturing`, `#global comparison`
+**Tags**: `#integrity`, `#creative work`, `#art`, `#ethics`, `#Calvin and Hobbes`
 
 ---
 
 <a id="item-17"></a>
-## [Deep Dive into Commander Keen's Smooth Scrolling](https://forgottenbytes.net/commander_keen.html) ⭐️ 7.0/10
+## [Stop Using JWTs for Browser Sessions](https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452) ⭐️ 7.0/10
 
-A detailed white paper analyzing the game engine of Commander Keen has been published, focusing on its innovative adaptive tile refresh technique for smooth scrolling on early PC hardware. This analysis sheds light on a pivotal technical breakthrough that enabled PC games to match the smooth scrolling of console counterparts, influencing the entire platform game genre on MS-DOS. The white paper covers both vertical and horizontal scrolling techniques, with horizontal scrolling being the most impressive feat, as noted by John Romero. The technique, known as adaptive tile refresh, was later used in other id Software titles.
+A widely-shared gist argues against using JSON Web Tokens (JWTs) for browser-based user sessions, citing security concerns such as inability to revoke tokens and algorithm confusion attacks. This debate challenges a common authentication practice, prompting developers to reconsider JWT usage in web applications and potentially shift toward session cookies or alternatives like PASETO. The gist links to a blog post by Paragon Initiative Enterprises that details JWT vulnerabilities, including algorithm confusion and weak secret attacks. Commenters note that JWTs remain secure for service-to-service communication with short lifetimes and proper signing.
 
-hackernews · HN RSS · Jun 15, 17:52 · [Discussion](https://news.ycombinator.com/item?id=48544781)
+hackernews · HN RSS · Jun 16, 16:49 · [Discussion](https://news.ycombinator.com/item?id=48558147)
 
-**Background**: In the early 1990s, PCs lacked dedicated hardware for sprite rendering, making smooth side-scrolling difficult. John Carmack of id Software developed adaptive tile refresh, which only redrew changed portions of the screen, to overcome this limitation. Commander Keen was one of the first MS-DOS games to feature smooth horizontal scrolling, setting a new standard for PC platformers.
+**Background**: JSON Web Tokens (JWTs) are a compact, URL-safe token format used for authentication and information exchange. They are often used in web applications to maintain user sessions without server-side storage. However, critics argue that JWTs introduce security risks because they cannot be easily revoked and are vulnerable to implementation flaws.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Adaptive_tile_refresh">Adaptive tile refresh - Wikipedia</a></li>
-<li><a href="https://fabiensanglard.net/ega/">Commander Keen's Adaptive Tile Refresh - Fabien Sanglard</a></li>
-<li><a href="https://www.howtogeek.com/704727/30-years-of-vorticons-how-commander-keen-changed-pc-gaming/">30 Years of Vorticons: How Commander Keen Changed PC Gaming</a></li>
+<li><a href="https://portswigger.net/web-security/jwt">JWT attacks | Web Security Academy - PortSwigger</a></li>
+<li><a href="https://aldeacode.com/blog/jwt-vs-session-cookies">JWT vs Session Cookies : Which to Use in 2026</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments praise the white paper and recommend related resources like the book 'Masters of Doom' and the site Cosmodoc. Some discuss the hardware context, noting how contemporary consoles like the SNES handled sprites more efficiently than PCs, which the paper helps explain.
+**Discussion**: Commenters largely agree that the criticism applies mainly to browser-based sessions, not service-to-service use. Some defend JWTs with short lifetimes and refresh mechanisms, while others suggest PASETO as a more secure alternative but note its limited ecosystem support.
 
-**Tags**: `#game development`, `#retro computing`, `#game engines`, `#id Software`, `#technical analysis`
+**Tags**: `#JWT`, `#security`, `#authentication`, `#web development`
 
 ---
 
 <a id="item-18"></a>
-## [Copper transport drug restores memory in Alzheimer's mice](https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins) ⭐️ 7.0/10
+## [Apple's Vehicle Motion Cues effectively reduce car sickness](https://www.theverge.com/tech/942854/apple-vehicle-motion-cues-review-really-work) ⭐️ 7.0/10
 
-Researchers at Monash University have shown that a copper transport drug restores memory and clears toxic amyloid-beta proteins in mouse models of Alzheimer's disease. The drug has already undergone safety evaluations for other diseases, potentially enabling rapid human trials. This represents a potential breakthrough in Alzheimer's treatment, as current amyloid-targeting therapies have shown limited efficacy. If successful in humans, it could offer a new therapeutic approach for millions of patients worldwide. The drug works by facilitating copper transport in the brain, which helps clear amyloid-beta plaques. The study was conducted in mice, and while safety data exists from prior human trials for other indications, efficacy in humans remains unproven.
+Apple's Vehicle Motion Cues, a new accessibility feature in iOS 18, uses animated dots on the screen edges to indicate vehicle movement, and the author reports it surprisingly eliminated their car sickness. 该功能为晕车这一常见问题提供了非药物解决方案，可能改善数百万乘客的出行舒适度和可及性。 The feature uses the iPhone's accelerometer and gyroscope to detect motion and displays animated dots that move in sync with the vehicle's turns and bumps, helping to reduce sensory mismatch.
 
-hackernews · HN RSS · Jun 15, 14:48 · [Discussion](https://news.ycombinator.com/item?id=48542132)
+hackernews · HN RSS · Jun 16, 16:12 · [Discussion](https://news.ycombinator.com/item?id=48557530)
 
-**Background**: Alzheimer's disease is characterized by the accumulation of amyloid-beta plaques in the brain, which are thought to contribute to neurodegeneration. The amyloid hypothesis has been the dominant theory for decades, but many drugs targeting amyloid have failed in clinical trials. Copper homeostasis is known to be disrupted in Alzheimer's, and restoring it may offer a novel therapeutic strategy.
+**Background**: Motion sickness occurs when there is a mismatch between what the eyes see and what the inner ear senses. Apple's Vehicle Motion Cues aim to provide visual cues that align with the body's motion, potentially preventing nausea. The feature is available on iPhones and iPads running iOS 18 or later.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.ycombinator.com/item?id=48542132">Copper transport drug restores memory and clears... | Hacker News</a></li>
-<li><a href="https://colab.ws/articles/10.1007/s00249-007-0235-2">Copper transport and Alzheimer ’ s disease | CoLab</a></li>
-<li><a href="https://www.nature.com/articles/s41419-025-08186-8">Amyloid-β and Tau in Alzheimer's disease: pathogenesis, mechanisms, and ...</a></li>
+<li><a href="https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios">Use iPhone more comfortably while riding in a vehicle - Apple Support</a></li>
+<li><a href="https://www.self.com/story/vehicle-motion-cues-review">I Tried Apple’s New ‘Vehicle Motion Cues’ Feature and Risked ... Apple’s weird anti-nausea dots cured my car sickness Little-known iPhone setting can help reduce motion sickness ... Dots on iPhone Screen for Motion Sickness Relief</a></li>
+<li><a href="https://tech.yahoo.com/phones/articles/turn-dots-try-iphone-feature-101827019.html">Turn on the dots: Try this iPhone feature to fight motion ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed skepticism about the amyloid hypothesis, with some noting that previous amyloid-targeting therapies have failed in humans. Others pointed out that the drug's safety profile from prior studies is promising, but cautioned that mouse model results often do not translate to humans.
+**Discussion**: Commenters expressed excitement about the feature, with many noting they had not known it existed and were eager to try it. Some shared alternative Android apps, while others reported that the feature did not work for their family members, suggesting the implementation may need refinement.
 
-**Tags**: `#Alzheimer's`, `#copper transport`, `#amyloid-beta`, `#drug discovery`, `#neuroscience`
+**Tags**: `#Apple`, `#motion sickness`, `#accessibility`, `#iOS`, `#health tech`
 
 ---
 
 <a id="item-19"></a>
-## [Job Interview Lessons on Kubernetes Trade-offs](https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/) ⭐️ 7.0/10
+## [Correlated Randomness in Slay the Spire 2](https://tck.mn/blog/correlated-randomness-sts2/) ⭐️ 7.0/10
 
-A reflective article shares insights from job interviews about Kubernetes, highlighting that while it offers uniformity, it can be overkill for small teams. Community comments debate its practicality, with some arguing it's now easier with AI tools and others warning of complexity. This discussion matters because Kubernetes adoption decisions affect infrastructure costs and team productivity, especially for startups and small engineering teams. The debate reflects a broader industry tension between standardization and simplicity. The article notes that Kubernetes provides uniformity but is a pain to manage, while community members point out that modern tools like GPT-generated manifests and local clusters reduce friction. One commenter warns that adopting k8s with only two engineers is a red flag for misplaced priorities.
+Slay the Spire 2 uses a custom PRNG instead of the C# standard library to ensure cross-platform seed consistency, avoiding the seed mismatch issues that plagued the original game between desktop and mobile versions. This change guarantees that the same seed produces identical gameplay across all platforms, preserving the integrity of seeded runs and enabling fair competition. It also prevents future standard library changes from breaking past seeds. The article highlights that standard library PRNG implementations can differ between platforms and change over time, breaking seed reproducibility. The custom PRNG in Slay the Spire 2 avoids these pitfalls by being platform-independent and version-controlled.
 
-hackernews · HN RSS · Jun 15, 20:12 · [Discussion](https://news.ycombinator.com/item?id=48546428)
+hackernews · HN RSS · Jun 16, 09:46 · [Discussion](https://news.ycombinator.com/item?id=48552844)
 
-**Background**: Kubernetes (k8s) is an open-source container orchestration platform that automates deployment, scaling, and management of containerized applications. It is widely used in production but has a steep learning curve and operational overhead, leading to debates about its suitability for small teams.
+**Background**: In video games, pseudorandom number generators (PRNGs) are used to create deterministic randomness from a seed value. If the PRNG implementation differs across platforms, the same seed can produce different outcomes, which is problematic for games that rely on seeded runs for consistency or competition.
 
-**Discussion**: Community sentiment is mixed: some agree with the article that k8s is overkill for small teams, while others argue that with modern tools like AI-generated manifests and local clusters, it's now more accessible. A key concern is that premature adoption can distract from product development.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://tck.mn/blog/correlated-randomness-sts2/">Correlated randomness in Slay the Spire 2 - Andy Tockman</a></li>
 
-**Tags**: `#Kubernetes`, `#DevOps`, `#Infrastructure`, `#Software Engineering`
+</ul>
+</details>
+
+**Discussion**: Commenters discussed the discovery of an unwinnable seed in the original Slay the Spire and the concept of 'RNG hell'. Some suggested using hash(seed + string) instead of seed + hash(string) to break linearity while preserving determinism. Others noted that Godot's GDScript uses PCG32, which avoids the correlated randomness issue.
+
+**Tags**: `#game development`, `#PRNG`, `#randomness`, `#software engineering`, `#determinism`
 
 ---
 
 <a id="item-20"></a>
-## [OpenAI Launches Partner Network with $150M Investment](https://openai.com/index/introducing-openai-partner-network) ⭐️ 7.0/10
+## [John Carmack Praises Fabrice Bellard's Programming Genius](https://twitter.com/ID_AA_Carmack/status/2064095424420487226) ⭐️ 7.0/10
 
-OpenAI has announced the launch of the OpenAI Partner Network, a new program backed by a $150 million investment to help global partners accelerate enterprise AI adoption and deployment. This initiative signals OpenAI's strategic push to expand enterprise AI adoption, potentially transforming how businesses integrate AI technologies and creating a robust ecosystem of partners. The $150 million investment will be used to support partners in areas such as co-selling, technical enablement, and go-to-market strategies, though specific partner eligibility criteria and program details have not been fully disclosed.
+John Carmack, a legendary game developer, publicly expressed admiration for Fabrice Bellard, calling him 'almost certainly a better overall programmer' in a tweet that sparked a Hacker News discussion. The discussion highlights Bellard's outsized impact on software engineering through projects like FFmpeg and QEMU, and raises questions about how we measure programmer greatness beyond raw skill. Bellard's notable projects include FFmpeg (multimedia framework), QEMU (emulator), Tiny C Compiler, QuickJS (JavaScript engine), and ts_zip (LLM-powered compression).
 
-rss · OpenAI Blog · Jun 14, 17:00
+hackernews · HN RSS · Jun 16, 04:58 · [Discussion](https://news.ycombinator.com/item?id=48550779)
 
-**Background**: Enterprise AI adoption often requires significant expertise and infrastructure. OpenAI's Partner Network aims to bridge this gap by providing resources and support to consulting firms, system integrators, and technology providers, enabling them to build and deploy AI solutions for enterprise clients.
+**Background**: Fabrice Bellard is a French computer programmer known for creating foundational open-source tools used by millions. His work spans emulation, multimedia, compilers, and even calculating pi to record digits. John Carmack is a pioneering game developer and CTO of Oculus VR, respected for his technical contributions to 3D graphics and virtual reality.
 
-**Tags**: `#OpenAI`, `#Enterprise AI`, `#AI Adoption`, `#Partnership`, `#Investment`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Fabrice_Bellard">Fabrice Bellard - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/QEMU">QEMU</a></li>
+<li><a href="https://en.wikipedia.org/wiki/FFmpeg">FFmpeg</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Commenters debated Bellard's legacy, with some noting his ability to pick impactful projects, while others criticized the quality of his early FFmpeg code. A user highlighted his recent LLM-based compression tool ts_zip as an example of his continued innovation.
+
+**Tags**: `#programming`, `#open source`, `#software engineering`, `#Fabrice Bellard`
 
 ---
